@@ -6,7 +6,7 @@ use std::collections::HashMap;
 /// REST Response
 #[derive(Debug)]
 pub struct Response {
-    inner_response: hyper::Response<Body>,
+    pub inner_response: hyper::Response<Body>,
 }
 
 impl Response {
